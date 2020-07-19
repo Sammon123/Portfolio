@@ -10,11 +10,11 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
 	<body>
-		<header class="navbar navbar-expand-lg navbar-light bg-info">
+		<header class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">Peter Sammon</a>
 				<button
@@ -30,59 +30,108 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="index.html">About Me</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html">Contact</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a class="nav-link" href="portfolio.html">Portfolio</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</header>
-		<section class="picture">
-			<a href="https://github.com/Sammon123/code-refactor" target="_blank">
-				<img
-					src="/assets/codeRetractor.png"
-					class="rounded float-left"
-					alt="..."
-				/>
-				<h5 class="picture">Code Retractor</h5></a
-			>
-			<a href="https://github.com/Sammon123/passcode-generator" target="_blank">
-				<img
-					src="/assets/passcodeGenerator.png"
-					class="rounded float-right"
-					alt="..."
-				/>
-			</a>
-		</section>
-		<section class="picture">
-			<a
-				href="https://www.linkedin.com/in/peter-sammon-950a611a7/"
-				target="_blank"
-			>
-				<img src="/assets/linkedIn.png" class="rounded float-left" alt="..." />
-				<h5 class="picture">LinkedIn Profile</h5>
-			</a>
-			<a href="/assets/Peter-Sammon.pdf" target="_blank">
-				<img
-					src="https://tse3.mm.bing.net/th?id=OIP.-hpPiPkMVqaVDfA_79YIFgHaFj&pid=Api&P=0&w=241&h=181"
-					class="rounded float-right"
-					alt="..."
-				/>
-				<h5 class="picture">Resume</h5></a
-			>
-		</section>
+		<main id="about">
+			<h1 class="lg-heading">
+				My
+				<span>Portfolio</span>
+			</h1>
+			<h2 class="sm-heading">
+				Check out some of my work
+			</h2>
+			<div class="projects">
+				<div class="item">
+					<a href="#!">
+						<img
+							src="https://github.com/Sammon123/Zomato/blob/master/dist/appExample.png?raw=true"
+							alt="projects"
+						/>
+					</a>
+					<a
+						href="https://github.com/Sammon123/Zomato"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Project 1 - Zomato
+					</a>
+				</div>
+				<div class="item">
+					<a href="#!">
+						<img src="assets\Booktivist.png" alt="projects" />
+					</a>
+					<a
+						href="https://github.com/Team-1-UNH-Bootcamp/Booktivist"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Project 2 - Booktivist
+					</a>
+				</div>
+				<div class="item">
+					<a href="#!">
+						<iframe
+							src="https://drive.google.com/file/d/14eROv5UD-SCvUBrOdgc1Eu9P9m5Bk44w/preview"
+						></iframe>
+					</a>
+					<a
+						href="https://github.com/Sammon123/readme-generator"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Readme Generator
+					</a>
+				</div>
+				<div class="item">
+					<a href="#!">
+						<iframe
+							src="https://drive.google.com/file/d/1c6kxPh0KZ_ME18qSDYHk3IQDGug-Vjr2/preview"
+						></iframe>
+					</a>
+					<a
+						href="https://github.com/Sammon123/code-quiz"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Code Quiz
+					</a>
+				</div>
+				<div class="item">
+					<a href="#!">
+						<img src="assets\passcodeGenerator.png" alt="projects" />
+					</a>
+					<a
+						href="https://github.com/Sammon123/passcode-generator"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Password Generator
+					</a>
+				</div>
+				<div class="item">
+					<a href="#!">
+						<img src="assets\codeRetractor.png" alt="projects" />
+					</a>
+					<a href="https://github.com/Sammon123/code-refactor" class="btn-dark">
+						<i class="fab fa-github"></i> Code Refactor
+					</a>
+				</div>
+			</div>
+		</main>
 
-		<footer class="footer mt-auto py-3">
+		<footer>
 			<div class="container">
-				<span class="text-dark">
-					Copyright &copy; 2020, My Website, Peter Sammon
-				</span>
+				Copyright, Peter Sammon &copy; 2020
 			</div>
 		</footer>
 		<script
@@ -97,6 +146,10 @@
 		<script
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/2c59773103.js"
 			crossorigin="anonymous"
 		></script>
 	</body>
