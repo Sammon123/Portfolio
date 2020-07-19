@@ -3,6 +3,29 @@ body {
 	max-height: 100%;
 	color: #fff;
 }
+.fa-facebook {
+	color: #385898;
+}
+.fa-linkedin {
+	color: #0073b1;
+}
+#contact {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+span {
+	text-decoration: none;
+}
+.socials li {
+	display: inline-block;
+	margin-right: 2rem;
+	text-align: center;
+	height: 35vh;
+}
 
 p {
 	margin: 1rem 0;
