@@ -66,6 +66,7 @@ ul {
 	color: #385898;
 	background-color: #fff;
 }
+
 .fa-linkedin {
 	color: #0073b1;
 	background-color: #fff;
@@ -210,6 +211,7 @@ h2.sm-heading {
 		align-items: center;
 		text-align: center;
 	}
+
 	main .lg-heading {
 		line-height: 1;
 		margin-bottom: 1rem;
@@ -218,6 +220,7 @@ h2.sm-heading {
 	.projects {
 		grid-template-columns: repeat(2, 1fr);
 	}
+
 	.portrait {
 		float: none;
 		height: 25vh;
