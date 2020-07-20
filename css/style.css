@@ -42,6 +42,7 @@ main {
 
 p {
 	margin: 1rem 0;
+	width: 75%;
 }
 
 span {
@@ -207,6 +208,10 @@ h2.sm-heading {
 }
 
 @media screen and (max-width: 768px) {
+	p {
+		width: 100%;
+		padding: 0 1.5rem;
+	}
 	main {
 		align-items: center;
 		text-align: center;
@@ -228,6 +233,9 @@ h2.sm-heading {
 }
 
 @media screen and (max-width: 500px) {
+	p {
+		padding: 0 2.5rem;
+	}
 	.projects {
 		grid-template-columns: 1fr;
 	}
