@@ -16,9 +16,10 @@ body {
 footer {
 	text-align: center;
 	padding: 1rem;
-	background: rgba(0, 26, 0);
+	background: url('../assets/bg.jpg') round;
 	color: #fff;
 	height: 60px;
+	width: 100%;
 }
 
 h1,
