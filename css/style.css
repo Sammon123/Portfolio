@@ -206,6 +206,10 @@ h2.sm-heading {
 	.projects {
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	h1.lg-heading {
+		font-size: 5rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -221,6 +225,11 @@ h2.sm-heading {
 	main .lg-heading {
 		line-height: 1;
 		margin-bottom: 1rem;
+		font-size: 3rem;
+	}
+
+	h2.sm-heading {
+		font-size: 2rem;
 	}
 
 	.projects {
